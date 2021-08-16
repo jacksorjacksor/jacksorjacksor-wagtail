@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block body_class %}template-homepage{% endblock %}
+
+{% block extra_css %}
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    .template-homepage {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+</style>
+{% endblock extra_css %}
+
+{% block content %}
+
+<h1>jacksorjacksor is under reconstruction</h1>
+<p>sorry!</p>
+<em>16/08/2021</em>
+<p>
+    <a href="https://jacksorjacksor.bandcamp.com/" target="_blank">bandcamp</a>
+</p>
+<p><a href="https://www.youtube.com/jacksorjacksor" target="_blank">youtube</a></p>
+<p><a href="https://twitter.com/jacksorjacksor" target="_blank">@jacksorjacksor</a></p>
+{% endblock content %}
